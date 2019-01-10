@@ -27,7 +27,7 @@
     background-color: rgb(134, 159, 184);
 }
 
-.header-container {
+.header-container, .footer-container {
     background-color: #f1f1f1;
     width: 100%;
     margin: auto;
@@ -35,11 +35,10 @@
     line-height: 75px;
     font-size: 30px;
 }
-.footer-container {
-background-color: #f1f1f1;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+
+@media (max-width: 600px) {
+    .flex-container .item-three {
+        display: none;
+        color:blue
+    }
 }
